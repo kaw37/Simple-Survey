@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat' >
+    <script src="login.js"></script>
+</head>
+<body>
+<div class="container">
+<form method="post" action="index.php" onSubmit="return validateForm(this)">
+    <input type="hidden" name="action" value="login"/>
+    <h1>Login</h1><br><br>
+    <div class="formField"></div>
+        <div>
+            <input type='text' name='email' class="input" placeholder="Email" id="emailField"/><br>
+        </div>
+        <div class="passwordField">
+            <input type='password' name='password' placeholder="Password"/>
+        </div>
+    <br><br>
+        <div id="formButtons">
+            <input type='submit' value='Login' class="button"/><br>
+                <a href="index.php?action=register"></a>
+        </div>
+        <div><a href='registration.html'>Not Registered? Register</a></div>
+    </div>
+</form>
+</div>
+</body>
+</html>

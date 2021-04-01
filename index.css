@@ -1,0 +1,31 @@
+body{
+    background-color: #fd91a6;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+
+}
+div.container{
+    text-align: center;
+
+}
+h1{
+    color: #f7f739;
+    margin: 0;
+    position: relative;
+    top:25%;
+}
+button{
+    color: #f7f739;
+    text-align: center;
+    border: none;
+    background-color: inherit;
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    margin: 0;
+    outline: none;
+}
+button:hover {
+    color: #573576;
+    border: none;
+    background-color: inherit;
+}

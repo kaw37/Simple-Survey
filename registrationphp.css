@@ -1,0 +1,75 @@
+body{
+    background-color: #7b3cb3;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+}
+
+div.container{
+    text-align: center;
+    position: relative;
+    top:15%;
+}
+h1{
+    color: #f7f739;
+    margin: 0;
+}
+button{
+    color: #f7f739;
+    text-align: center;
+    border: none;
+    background-color: inherit;
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    margin: 0;
+    outline: none;
+}
+button:hover {
+    color: #ee8b26;
+    border: none;
+    background-color: inherit;
+}
+input[type=text]{
+    color: #f7f739;
+    text-align: center;
+    border: none;
+    background: transparent;
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    margin: 0;
+    outline: none;
+}
+
+input[type=password]{
+    color: #f7f739;
+    text-align: center;
+    border: none;
+    background: transparent;
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    margin: 0;
+    outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #f7f739;
+    opacity: 1; /* Firefox */
+    font-family: Montserrat, sans-serif;
+}
+
+input.button{
+    color: #f7f739;
+    text-align: center;
+    border: none;
+    background-color: inherit;
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    margin: 0;
+    outline: none;
+    font-weight: bold;
+
+}
+input.button:hover {
+    color: #ee8b26;
+    border: none;
+    background-color: inherit;
+}

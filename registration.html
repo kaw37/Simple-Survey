@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat' >
+    <script src="registration.js"></script>
+</head>
+<body>
+<div class="container">
+<form method="post" action="index.php"onSubmit="return validateForm(this)">
+    <input type="hidden" name="action" value="register"/>
+    <h1>Registration Form</h1><br><br>
+    <div class="firstAndLastNameField">
+        <input type='text' name='firstName' placeholder="First Name"/> <br>
+    </div>
+    <div class="firstAndLastNameField">
+        <input type='text' name='lastName' placeholder="Last Name"/>
+    <div class="emailAndPasswordField">
+            <input type='text' name='email' placeholder="Email"/>
+    </div>
+    </div>
+    <div class="firstAndLastNameField">
+        <input type='text' name='userName' placeholder="Username"/> <br>
+    </div>
+    <div class="emailAndPasswordField">
+        <input type='password' name='password' placeholder="Password"/>
+    </div>
+    <div class="emailAndPasswordField">
+        <input type='password' name='passwordConfirm' placeholder="Confirm Password"/>
+    </div><br><br>
+    <div id="formButtons">
+        <input type='submit' value='Register' class="button inner"/>
+</form>
+</div>
+</body>
+</html>
